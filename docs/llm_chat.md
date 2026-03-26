@@ -101,3 +101,6 @@ QEMU 启动参数配置
 
 # question6
 在README.md中添加对vga-usage.md的引用
+
+# question7
+进行在crate.io上的发布测试

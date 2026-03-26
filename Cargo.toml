@@ -13,11 +13,7 @@
 edition = "2024"
 name = "lbl-tg-rcore-tutorial-vga"
 version = "0.1.0-preview.1"
-authors = [
-    "YdrMaster <ydrml@hotmail.com>",
-    "Yifan Wang<w-yf22@mails.tsinghua.edu.cn>",
-    "Yu Chen <yuchen@tsinghua.edu.cn>",
-]
+authors = [ "Bolin Li <3127221674@qq.com>"]
 build = "build.rs"
 autolib = false
 autobins = false
@@ -25,16 +21,13 @@ autoexamples = false
 autotests = false
 autobenches = false
 description = "A minimal reusable framebuffer component for QEMU RISC-V 64."
-repository = ""
-homepage = ""
-documentation = ""
+repository = "https://github.com/waterrop/lbl-tg-rcore-tutorial-vga"
 readme = "README.md"
 keywords = ["ai", "ai4ose", "kernel", "learning", "os"]
-categories = [
-    "no-std",
-    "embedded",
-]
+categories = ["no-std", "embedded",]
 license = "GPL-3.0"
+exclude = [".cargo_vcs_info.json", "Cargo.toml.orig"]
+
 
 [lib]
 name = "lbl_tg_rcore_tutorial_vga"
