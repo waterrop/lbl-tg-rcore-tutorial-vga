@@ -76,3 +76,28 @@ Guest 内核/驱动
 4.给出3条建议选择的虚拟现实设备和图形后端的组合。
 
 按要求回答，并保存到/home/hdu/study/rust/2026s-ai4ose-lab/lbl-tg-rcore-tutorial-vga/docs/grap-design.md
+
+# question4
+删除每个文件里的#[test]内容有影响吗？
+
+# question5
+请生成一份 lbl-tg-rcore-tutorial-vga 操作系统图形组件的使用说明文档，文档格式为标准 Markdown，保存路径为：/home/hdu/study/rust/2026s-ai4ose-lab/lbl-tg-rcore-tutorial-vga/docs/vga-usage.md
+
+文档核心要求
+适用环境：RISC-V 64 裸机内核 /rCore-Tutorial 操作系统、QEMU RISC-V 64 模拟器、ramfb 虚拟显示设备、无标准库（#![no_std]）
+文档用途：供其他内核开发者快速集成、调用本图形组件
+语言：Rust，严格匹配组件设计规范
+内容必须完整包含
+组件简介与依赖说明
+快速集成步骤（Cargo 配置、内核引入方式）
+初始化接口使用方法（含代码示例）
+像素绘制接口使用方法（含代码示例）
+清屏接口使用方法（含代码示例）
+辅助信息获取接口使用（分辨率、帧缓冲信息）
+完整可运行调用示例代码
+QEMU 启动参数配置
+常见问题与注意事项
+格式规范：结构清晰、代码可直接复制使用、符合操作系统开发文档标准
+
+# question6
+在README.md中添加对vga-usage.md的引用
